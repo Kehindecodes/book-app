@@ -97,14 +97,13 @@ php artisan serve
 
 All API responses are delivered in JSON format, with clear error codes and messages for handling unsuccessful requests.
 
-- `GET /api/books` : Retrieve a list of books.
-- `POST /api/books` : Create a new book.
-- `GET /api/books/:id` : Retrieve details for a specific book.
-- `PUT /api/books/:id` : Update a specific book.
-- `DELETE /api/books/:id` : Delete a specific book.
+- `GET /api/v1/books` : Retrieve a list of books.
+- `POST /api/v1/books` : Create a new book.
+- `GET /api/v1/books/:id` : Retrieve details for a specific book.
+- `PATCH /api/v1/books/:id` : Update a specific book.
+- `DELETE /api/v1/books/:id` : Delete a specific book.
 
 ## Database Schema:
-
 The MySQL database includes tables for **`books`,`authors` and `book_authors`**. Refer to **`server/database/migrations`** for the database schema.
 
 ## Frontend
